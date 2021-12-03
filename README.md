@@ -1,1 +1,1 @@
-solid
+design-patterns
