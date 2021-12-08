@@ -1,6 +1,6 @@
-package com.paloit.patterns.creationals.factory.factory.impl;
+package com.paloit.patterns.creationals.factory.factorymethod.impl;
 
-import com.paloit.patterns.creationals.factory.factory.LoginProvider;
+import com.paloit.patterns.creationals.factory.factorymethod.LoginProvider;
 
 public class LoginProviderTwitterImpl implements LoginProvider {
 

@@ -1,4 +1,4 @@
-package com.paloit.patterns.creationals.factory.factory;
+package com.paloit.patterns.creationals.factory.factorymethod;
 
 public class SigninProviderNotSupportedException extends RuntimeException {
 

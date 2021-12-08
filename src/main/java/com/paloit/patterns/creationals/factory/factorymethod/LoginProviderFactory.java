@@ -1,8 +1,8 @@
-package com.paloit.patterns.creationals.factory.factory;
+package com.paloit.patterns.creationals.factory.factorymethod;
 
-import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderFacebookImpl;
-import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderGoogleImpl;
-import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderTwitterImpl;
+import com.paloit.patterns.creationals.factory.factorymethod.impl.LoginProviderFacebookImpl;
+import com.paloit.patterns.creationals.factory.factorymethod.impl.LoginProviderGoogleImpl;
+import com.paloit.patterns.creationals.factory.factorymethod.impl.LoginProviderTwitterImpl;
 
 public class LoginProviderFactory {
 
