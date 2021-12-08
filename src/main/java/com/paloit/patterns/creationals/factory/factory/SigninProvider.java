@@ -1,4 +1,4 @@
-package com.paloit.patterns.creationals.factory;
+package com.paloit.patterns.creationals.factory.factory;
 
 public enum SigninProvider {
 

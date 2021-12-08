@@ -1,8 +1,8 @@
-package com.paloit.patterns.creationals.factory;
+package com.paloit.patterns.creationals.factory.factory;
 
-import com.paloit.patterns.creationals.factory.impl.SessionInitiatorFacebookImpl;
-import com.paloit.patterns.creationals.factory.impl.SessionInitiatorGoogleImpl;
-import com.paloit.patterns.creationals.factory.impl.SessionInitiatorTwitterImpl;
+import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderFacebookImpl;
+import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderGoogleImpl;
+import com.paloit.patterns.creationals.factory.factory.impl.LoginProviderTwitterImpl;
 
 public class LoginProviderFactory {
 
@@ -12,11 +12,11 @@ public class LoginProviderFactory {
         }
         switch (provider) {
             case FACEBOOK:
-                return new SessionInitiatorFacebookImpl();
+                return new LoginProviderFacebookImpl();
             case GOOGLE:
-                return new SessionInitiatorGoogleImpl();
+                return new LoginProviderGoogleImpl();
             case TWITTER:
-                return new SessionInitiatorTwitterImpl();
+                return new LoginProviderTwitterImpl();
             default:
                 throw new SigninProviderNotSupportedException("Proveedor de inicio de sesión no especificado.");
         }
